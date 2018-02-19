@@ -1,5 +1,5 @@
-FROM ppoffice/mssql-odbc
-MAINTAINER PPOffice <ppoffice_2008@163.com>
+FROM khrysro/mssql-odbc
+MAINTAINER khrysro <khrysro88@gmail.com>
 
 RUN apt-get update && \
     apt-get -y install apache2 php5 php5-mssql && \
